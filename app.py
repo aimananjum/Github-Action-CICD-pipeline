@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1>DevOps Docker Project - Running!</h1>"
+    return "<h1>DevOps Docker Project - Running! Version-2</h1>"
 
 @app.route('/health')
 def health():
